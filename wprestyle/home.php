@@ -19,19 +19,19 @@ $wprestyle_feed_header = esc_html(get_theme_mod( 'wprestyle_feed_header_title' )
     <div class="row">
       <div class="col-sm-10 col-sm-offset-1">
         <div class="row">
-		<div id="blog-section">
-		<?php do_action( 'wprestyle_before_index' );
-		    if ( get_theme_mod( 'wprestyle_feed_header_visibility' ) != 1 ) {
-			    if (get_theme_mod( 'wprestyle_feed_header_title' )) { ?>
-					 <h3 class="feed head text-center"><?php echo $wprestyle_feed_header ?></h3>
+    <div id="blog-section">
+    <?php do_action( 'wprestyle_before_index' );
+        if ( get_theme_mod( 'wprestyle_feed_header_visibility' ) != 1 ) {
+          if (get_theme_mod( 'wprestyle_feed_header_title' )) { ?>
+           <h3 class="feed head text-center"><?php echo $wprestyle_feed_header ?></h3>
                 <?php } else { ?>
                      <h3 class="feed head text-center"><?php _e('Latest News On ', 'wprestyle' ); ?><?php bloginfo( 'name' ); ?></h3>
-			    <?php } ?>
-			         <div class="feed-title-separator"></div>
-			    <?php }
-		    	      get_template_part( 'content/feed' );
-			    ?>
-		</div>		
+          <?php } ?>
+               <div class="feed-title-separator"></div>
+          <?php }
+                get_template_part( 'content/feed' );
+          ?>
+    </div>    
         </div>
       </div>
    </div>

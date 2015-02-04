@@ -1,0 +1,167 @@
+/*
+ Theme Name:   UHF On the Palouse
+ Theme URI:    http://uhfonthepalouse.com
+ Description:  Theme for UHF on the Palouse theme
+ Author:       Tom Lagier
+ Author URI:   http://github.com/mcmouse
+ Template:     wprestyle
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  uhfonthepalouse
+*/
+
+#section7 {
+  background-color: transparent;
+}
+
+#section7 .featured-image-boxes {
+  margin: 25px 0;
+  background-color: rgba(0,0,0,.6);
+  color: white;
+  -webkit-font-smoothing: antialiased;
+  width: 100%;
+}
+
+h2.v-center a {
+  color: white;
+  -webkit-font-smoothing: antialiased;
+}
+
+h2.v-center a:hover {
+  color: rgba(255,255,255,0.7);
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+}
+
+#section7 .wprestyle-text {
+  margin-top: 60px;
+}
+
+#section2 {
+  background-color: white;
+}
+
+.purchase_toggle_buttons .purchase_toggle_button.left, .purchase_toggle_buttons .purchase_toggle_button.right {
+  background-color: #1A9D20;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.purchase_toggle_buttons .purchase_toggle_button.left:hover, .purchase_toggle_buttons .purchase_toggle_button.right:hover {
+  background-color: #042D04;
+}
+
+.wprestyle-image {
+  text-align: right;
+}
+
+.wprestyle-image img {
+  max-height: auto;
+}
+
+@media screen and (max-width: 783px) {
+  .wprestyle-image {
+    text-align: center;
+  }
+
+  .wprestyle-image img {
+    max-width: 100%;
+    width: 100%;
+  }
+}
+
+
+a {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out; 
+}
+
+.featured-image-boxes .wprestyle-image, .featured-image-boxes .wprestyle-text {
+  margin: 5%;
+  width: 40%;
+}
+
+@media screen and (max-width: 783px) {
+  .featured-image-boxes .wprestyle-image, .featured-image-boxes .wprestyle-text {
+    width: 90%;
+  }
+}
+
+#section0{
+  padding: 0;
+}
+
+#section0 h2 {
+  padding: 0;
+}
+
+#section0 .brand {
+  padding: 25px;
+  display: inline-block;
+  margin: 10px;
+  background: rgba(0,0,0,0.7);
+}
+
+.navbar-static-top {
+  font-size: 15px;
+}
+
+.register-button, input[type="submit"].register-button {
+  font-size: 16px;
+  box-shadow: none;
+  border-radius: 0;
+  color: white !important;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  background-color: #5cb85c;
+  border: 1px solid;
+  border-color: #137613;
+  text-transform: uppercase;
+  padding-top: 8px;
+}
+
+.navbar-static-top .register-button {
+    position: relative;
+  top: 6px;
+  right: -15px;
+}
+
+.register-button:hover, input[type="submit"].register-button:hover{
+  box-shadow: none;
+  background-color: #137613;
+}
+
+.navbar-trans li>a:hover, .navbar-trans li>a:focus{
+  color: #1A9D20;
+}
+
+a:hover {
+  color: #1A9D20;
+}
+
+.wpcf7-response-output {
+  margin-left: 0;
+}
+
+body.custom-background {
+  background-size: cover;
+}
+
+p {
+  font-size: 16px;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
+
+.comment-content img, .entry-content img, .entry-summary img, .widget img, .wp-caption {
+  max-width: 220px;
+}
+
+p a {
+  text-decoration: underline;
+}
