@@ -2,7 +2,7 @@
 $wprestyle_serv1_url   = esc_url(get_theme_mod( 'wprestyle_box_url1' ));
 $wprestyle_serv2_url   = esc_url(get_theme_mod( 'wprestyle_box_url2' ));
 $wprestyle_serv3_url   = esc_url(get_theme_mod( 'wprestyle_box_url3' ));
-$wprestyle_serv3_url   = esc_url(get_theme_mod( 'wprestyle_box_url4' )); 
+$wprestyle_serv4_url   = esc_url(get_theme_mod( 'wprestyle_box_url4' )); 
 ?>          
     <!-- three column box -->
       <div class="wprestyle-column-box-wrapper">

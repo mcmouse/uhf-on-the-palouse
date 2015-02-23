@@ -81,14 +81,8 @@ a {
 }
 
 .featured-image-boxes .wprestyle-image, .featured-image-boxes .wprestyle-text {
+  width: 90%;
   margin: 5%;
-  width: 40%;
-}
-
-@media screen and (max-width: 783px) {
-  .featured-image-boxes .wprestyle-image, .featured-image-boxes .wprestyle-text {
-    width: 90%;
-  }
 }
 
 #section0{
@@ -164,4 +158,16 @@ p {
 
 p a {
   text-decoration: underline;
+}
+
+.entry-content table td{
+  padding: 15px;
+  border: none;
+  font-size: 14px;
+  line-height: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.1)
+}
+
+.purchase_toggle_buttons{
+  max-width: 500px;
 }
